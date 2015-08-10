@@ -16,7 +16,7 @@ class esteid(
                 repos => "main",
                 include_src => false,
                 key => "43650273CE9516880D7EB581B339B36D592073D4",
-                key_source => "https://installer.id.ee/media/install-scripts/ria-public.key"
+                key_server => "keyserver.ubuntu.com"
             }
             ->
             Package["estonianidcard"]
